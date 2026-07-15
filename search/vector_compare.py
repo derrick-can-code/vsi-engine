@@ -20,9 +20,3 @@ class VectorCompare:
     if denominator == 0:
       return 0.0
     return dot_product/denominator #returns cosine value from 0 to 1
-
-obj1 = VectorCompare()
-document = "Cats are cats, and dogs are dogs, but he who sees a fish recognizes it easily"
-x = obj1.concordance(document)
-y = obj1.magnitude(x)
-print(y)
