@@ -1,9 +1,108 @@
 DOCUMENTS = {
-  0: "At Scale You Will Hit Every Performance Issue I used to think I knew...",
-  1: "Richard Stallman to visit Australia Im not usually one to promote...",
-  2: "MySQL Backups Done Easily One thing that comes up a lot on sites...",
-  3: "Why You Shouldnt roll your own CAPTCHA At a TechEd I attended...",
-  4: "The Great Benefit of Test Driven Development Nobody Talks About The...",
-  5: "Setting up GIT to use a Subversion SVN style workflow Moving from...",
-  6: "Why CAPTCHA Never Use Numbers 0 1 5 7 Interestingly this sort of...",
+  0: (
+      "Python Programming Language Fundamentals. Python is a high level "
+      "interpreted programming language known for readable syntax and a "
+      "large standard library. Developers use Python for web backends, "
+      "automation scripts, data analysis, and machine learning pipelines. "
+      "Its dynamic typing and indentation based syntax make it approachable "
+      "for beginners while still powerful enough for large production "
+      "systems at companies like Google, Instagram, and Spotify. Python "
+      "supports multiple programming styles, including object oriented, "
+      "functional, and procedural code, which lets developers pick whichever "
+      "approach fits the problem best. The language also has an enormous "
+      "ecosystem of third party packages available through pip, covering "
+      "everything from web frameworks like Django and Flask to scientific "
+      "computing libraries like NumPy and Pandas. This combination of "
+      "simplicity and depth is why Python is often recommended as a first "
+      "language for new programmers, while also remaining the language of "
+      "choice for experienced engineers building production systems."
+  ),
+  1: (
+      "Git Version Control and Branching Workflow. Git tracks changes to "
+      "source code over time using commits, branches, and merges. A "
+      "developer creates a feature branch off main, makes commits describing "
+      "each change, then opens a pull request so teammates can review the "
+      "code before merging. This workflow prevents broken code from reaching "
+      "production and keeps a clean, readable project history. Branches let "
+      "multiple people work on different features at the same time without "
+      "stepping on each other's changes. When a branch is ready, a "
+      "maintainer reviews the pull request, leaves comments, and either "
+      "approves it or requests changes. Once merged, the branch is usually "
+      "deleted, and the history of commits remains as a permanent record of "
+      "exactly what changed and why. Good commit messages, written in the "
+      "present tense and describing intent rather than implementation "
+      "detail, make this history genuinely useful months or years later "
+      "when someone is trying to understand why a particular line of code "
+      "exists."
+  ),
+  2: (
+      "Machine Learning Model Training Basics. Machine learning involves "
+      "training a model on labeled data so it can make predictions on new, "
+      "unseen inputs. The training process adjusts internal weights to "
+      "minimize a loss function, typically using an algorithm called "
+      "gradient descent. Common model types include decision trees, neural "
+      "networks, and support vector machines, each suited to different "
+      "kinds of prediction problems. Before training begins, data is "
+      "usually split into a training set and a test set, so the model's "
+      "performance can be measured on examples it has never seen. "
+      "Overfitting is one of the most common problems in machine learning, "
+      "where a model memorizes the training data instead of learning "
+      "generalizable patterns, and performs poorly once deployed on real "
+      "world inputs. Techniques like regularization, cross validation, and "
+      "collecting more diverse training data all help reduce this risk."
+  ),
+  3: (
+      "Cloud Computing and Infrastructure. Cloud computing lets companies "
+      "rent servers, storage, and networking from providers like AWS, "
+      "Azure, and Google Cloud instead of buying physical hardware. This "
+      "makes it easier to scale an application up during high traffic and "
+      "scale back down afterward, paying only for what is actually used. "
+      "Engineers often deploy applications using containers and "
+      "orchestration tools such as Docker and Kubernetes to manage this "
+      "scaling automatically. Infrastructure as code tools like Terraform "
+      "let teams define their entire cloud setup in version controlled "
+      "configuration files, rather than manually clicking through a web "
+      "console, which makes infrastructure changes reviewable, repeatable, "
+      "and far less error prone across large engineering organizations."
+  ),
+  4: (
+      "Cybersecurity Fundamentals for Developers. Application security "
+      "means protecting software from attackers who exploit vulnerabilities "
+      "like SQL injection, cross site scripting, and insecure "
+      "authentication. Developers reduce risk by validating user input, "
+      "encrypting sensitive data, and following the principle of least "
+      "privilege, where each part of a system only has access to exactly "
+      "what it needs and nothing more. Regular security audits and "
+      "dependency updates catch vulnerabilities before attackers find them. "
+      "Many security incidents come not from exotic new attacks but from "
+      "well known, well documented vulnerabilities that simply were not "
+      "patched in time, which is why keeping dependencies current is one "
+      "of the highest leverage security practices a team can adopt."
+  ),
+  5: (
+      "Web Development Frontend and Backend. Modern web applications split "
+      "into a frontend, built with HTML, CSS, and JavaScript frameworks "
+      "like React, and a backend, which handles business logic and talks "
+      "to a database. The frontend and backend communicate over an API, "
+      "usually using JSON over HTTP. A well designed API makes it possible "
+      "for mobile apps and web apps to share the same backend, avoiding "
+      "duplicated logic. On the frontend, component based frameworks let "
+      "developers break a complex interface into small, reusable pieces "
+      "that each manage their own state, which makes large applications "
+      "far easier to reason about and test than one giant tangled page of "
+      "code."
+  ),
+  6: (
+      "Relational Databases and SQL Queries. A relational database stores "
+      "data in tables made of rows and columns, connected through keys "
+      "that define relationships between tables. SQL is the language used "
+      "to query this data, letting developers select, filter, join, and "
+      "aggregate rows across multiple tables. Indexing frequently searched "
+      "columns dramatically speeds up query performance on large tables, "
+      "at the cost of slightly slower writes and extra storage space. "
+      "Choosing the right indexes is one of the most common ways "
+      "developers optimize a slow application, since a missing index can "
+      "turn a query that should take milliseconds into one that takes "
+      "several seconds once a table grows to millions of rows."
+  ),
 }
